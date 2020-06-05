@@ -1,3 +1,64 @@
+/* цвет основного текста #757575 */
+/* цвет заголовков текста #212121 */
+/* акцент #2196F3*/
+/* белый цвет #ffffff */
+/* черный цвет #000000 */
+/* цвет фона команды #F5F4FA */
+/* цвет футтера #2F303A */
+
+:root {
+  --accent-color: #2196f3;
+  --title-text-color: #212121;
+}
+
 body {
-  background-color: tomato;
+  color: #757575;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* logo */
+.logo1 {
+  color: var(--accent-color);
+}
+.logo2 {
+  color: #000000;
+}
+
+/* site nav */
+.site-nav .link {
+  color: #000000;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* hero title */
+.hero-title {
+  background-color: #413d3d;
+  color: #ffffff;
+}
+
+/* button */
+.button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
 }
