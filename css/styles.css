@@ -47,12 +47,28 @@ a {
   background-color: #413d3d;
   color: #ffffff;
 }
+ /* features */
+ .features-title {
+   color: var(--title-text-color);
+ }
+ .features-img {
+   background-color: #f5f4fa;
+   display: inline-block;
+   padding: 12px 24px;
+   
+ }
 
 /* button */
-.button {
+ .button {
   color: #ffffff;
   background-color: var(--accent-color);
   font-size: 16px;
   display: inline-block;
   padding: 12px 24px;
+
+
+
+
+
+
   
