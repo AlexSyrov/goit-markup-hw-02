@@ -9,11 +9,17 @@
 :root {
   --accent-color: #2196f3;
   --title-text-color: #212121;
+  --main-text-color: #757575;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --team-background-color: #f5f4fa;
+  --footer-color: #2f303a;
+  --icon-color: #afb1b8;
 }
 
 body {
-  color: #757575;
-  background-color: #ffffff;
+  color: var(--main-text-color);
+  background-color: var(--white-color);
 }
 
 ul {
@@ -25,50 +31,139 @@ a {
 }
 
 /* logo */
-.logo1 {
+.logo-primary {
   color: var(--accent-color);
 }
-.logo2 {
-  color: #000000;
+.logo-secondary {
+  color: var(--black-color);
+}
+.logo-secondary:focus {
+  color: var(--accent-color);
 }
 
 /* site nav */
 .site-nav .link {
-  color: #000000;
+  color: var(--black-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
 }
-
+.site-nav .link.current {
+  color: var(--accent-color);
+}
 /* hero title */
 .hero-title {
-  background-color: #413d3d;
-  color: #ffffff;
+  background-color: rgba(0, 0, 0, 80%);
+  color: var(--white-color);
 }
- /* features */
- .features-title {
-   color: var(--title-text-color);
- }
- .features-img {
-   background-color: #f5f4fa;
-   display: inline-block;
-   padding: 12px 24px;
-   
- }
-
 /* button */
- .button {
-  color: #ffffff;
+.button-primary {
+  color: var(--title-text-color);
+  background-color: var(--team-background-color);
+}
+.button-primary:hover,
+.button-primary:focus {
+  color: var(--white-color);
   background-color: var(--accent-color);
-  font-size: 16px;
-  display: inline-block;
-  padding: 12px 24px;
+}
+.button-secondary {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.button-secondary:hover,
+.button-secondary:focus {
+  color: var(--title-text-color);
+  background-color: var(--team-background-color);
+}
 
+/* features */
+.features-img {
+  background-color: var(--team-background-color);
+}
+.features-title {
+  color: var(--title-text-color);
+}
 
+/* what are we doing */
+.wawd-title {
+  color: var(--title-text-color);
+}
 
+.wawd-item {
+  color: var(--white-color);
+  background-color: rgba(0, 0, 0, 80%);
+}
+/* Team */
+.team-box {
+  background-color: var(--team-background-color);
+}
 
+.team-title {
+  color: var(--title-text-color);
+}
 
+.socialnet-link {
+  color: var(--icon-color);
+}
 
-  
+.socialnet-link:hover,
+.socialnet-link:focus {
+  color: var(--accent-color);
+}
+
+/* clients */
+.clients-title {
+  color: var(--title-text-color);
+}
+
+.clients-site-link {
+  color: var(--icon-color);
+}
+.clients-site-link:hover,
+.clients-site-link:focus {
+  color: var(--accent-color);
+}
+
+/* footer */
+.box {
+  background-color: var(--footer-color);
+}
+.f-logo-primary {
+  color: var(--accent-color);
+}
+.f-logo-secondary {
+  color: var(--white-color);
+}
+.address-city {
+  color: var(--white-color);
+}
+.f-site-nav .f-link {
+  color: rgba(255, 255, 255, 60%);
+}
+
+.f-site-nav .f-link:hover,
+.f-site-nav .f-link:focus {
+  color: var(--accent-color);
+}
+.conecting-title {
+  color: var(--white-color);
+}
+.f-socialnet-link {
+  color: rgba(255, 255, 255, 10%);
+}
+.f-socialnet-link:hover,
+.f-socialnet-link:focus {
+  color: var(--accent-color);
+}
+.developed {
+  color: rgba(255, 255, 255, 40%);
+}
+/* portfolio page */
+.title-project {
+  color: var(--title-text-color);
+}
+.project-item {
+  color: var(--main-text-color);
+}
