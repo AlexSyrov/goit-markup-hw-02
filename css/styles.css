@@ -53,13 +53,16 @@ a {
 
 /* site nav */
 .site-nav .link {
-  color: var(--black-color);
+  color: var(--title-text-color);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.43;
 
   letter-spacing: 0.02em;
+}
+.site-nav > .link {
+  color: var(--main-text-color);
 }
 
 .site-nav .link:hover,
