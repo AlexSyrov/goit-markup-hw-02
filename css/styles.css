@@ -164,6 +164,10 @@ a {
 .team-box {
   background-color: var(--team-background-color);
 }
+.team-list {
+  display: flex;
+  justify-content: space-around;
+}
 .member-title {
   color: var(--title-text-color);
   font-weight: 500;
@@ -186,6 +190,10 @@ a {
 }
 
 /* clients */
+.clients {
+  display: flex;
+  justify-content: space-around;
+}
 
 .clients-site-link {
   color: var(--icon-color);
