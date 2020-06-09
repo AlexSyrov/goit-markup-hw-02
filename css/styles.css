@@ -161,9 +161,7 @@ a {
   text-transform: uppercase;
 }
 /* Team */
-.team-box {
-  background-color: var(--team-background-color);
-}
+
 .team-list {
   display: flex;
   justify-content: space-around;
@@ -190,10 +188,6 @@ a {
 }
 
 /* clients */
-.clients {
-  display: flex;
-  justify-content: space-around;
-}
 
 .clients-site-link {
   color: var(--icon-color);
